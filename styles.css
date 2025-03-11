@@ -1,28 +1,61 @@
-/* Window background color */
+/* Main window background */
 window {
-    background-color: white;
+    background-color: whitesmoke;
 }
 
-/* Button styles */
+/* Button styling */
 button {
-    background-color: orange;
+    background: blue;
+    background-color: blue;
     color: white;
-    border-radius: 10px;
     font-size: 16px;
-    padding: 10px;
-    border: none;  /* Remove default border */
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: blue;
-    color: white;
+    background: darkblue;
+    background-color: darkblue;
 }
 
 button:active {
-    background-color: darkblue; /* Darker blue when clicked */
+    background: navy;
+    background-color: navy;
 }
 
-/* Image styles - no margin needed */
-image {
-    /* No need for margin here */
+/* Label styling */
+#krenka_label {
+    background: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Previous button styling */
+#previous_button {
+    background: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#previous_button:hover {
+    background: white;
+    background-color: white;
+}
+
+.slide-background {
+    background-color: whitesmoke;
+    border: 2px solid blue;
+    padding: 5px;  /* Optional: gives some space for the border to be visible */
 }
