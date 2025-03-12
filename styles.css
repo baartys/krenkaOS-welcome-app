@@ -26,11 +26,34 @@ button:active {
 }
 
 /* Label styling */
+#unof_label {
+    background: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
 #krenka_label {
     background: whitesmoke;
     background-color: whitesmoke;
     color: black;
     font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#lang_label {
+    background: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 14px;
     font-weight: bold;
     border: none;
     padding: 10px 20px;
@@ -58,4 +81,21 @@ button:active {
     background-color: whitesmoke;
     border: 2px solid blue;
     padding: 5px;  /* Optional: gives some space for the border to be visible */
+}
+
+#radio_box {
+    background-color: transparent;
+    padding: 10px;
+}
+
+#radio_button {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+#radio_button:checked {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
 }
